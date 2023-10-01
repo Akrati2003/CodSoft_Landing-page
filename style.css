@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.inflex {
+    display: inline-flex;
+    margin-left: 0;
+    padding-right: 22px;
+    color: white;
+}
+
+.inflex2 {
+    display: inline-flex;
+    margin-left: 0;
+    padding-right: 22px;
+    
+}
+
+.list {
+    list-style: none;
+    margin: 15px;
+    font-weight: 600;
+    font-style: none;
+    color: black;
+}
+
+a {
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+}
+
+
+.inp {
+    width: 354px;
+    height: 34px;
+    margin-right: -12px;
+    margin-left: 47px;
+    padding: 16px;
+    border-radius: 5px;
+    border: 1px solid rgb(168, 163, 163)
+}
+
+.logo {
+    padding-left: 10px;
+    position: fixed;
+    left: 20px;
+    top: 30px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0%;
+    padding-left: 55px;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(235, 229, 229);
+    box-shadow: 10px 2px 5px rgb(197, 195, 195);
+    justify-content: end;
+    background-color: rgb(35, 133, 158);
+    height:  80px;
+   
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.font {
+    font-size: 13px;
+    ;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+body {
+    background-color: white;
+}
+
+.first {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.containers {
+    width: 203px;
+    height: 230px;
+    cursor: pointer;
+
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.bosscont {
+    box-shadow: 0px 0px 10px 1px rgb(171, 167, 167);
+    padding-bottom: 50px;
+    height: 500px;
+
+}
+
+.maincont {
+    overflow: scroll;
+    height:350px;
+}
+
+.bosscont2 {
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+
+hr {
+    display: none;
+    width: 20px;
+    font-weight: bolder;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 5px;
+    opacity: 0.7;
+}
+
+footer {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(244, 253, 255);
+}
+
+li {
+    list-style: none;
+}
+.contact{
+    padding: 50px;
+}
+
+footer ul li {
+    font-size: small;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.p100 {
+    padding: 30px 50px 0px 100px;
+}
+
+.p101 {
+    padding: 10px 50px 20px 100px;
+}
+
+.p102 {
+    padding: 30px 10px 0px 30px;
+}
+
+.foot1 {
+    display: inline-block;
+}
+
+.foot2 {
+    display: flex;
+}
+
+.shop {
+    margin: 50px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container2 {
+    display: inline;
+    width: 200px;
+    height: 300px;
+    /* border: 2px solid rgb(108, 106, 106); */
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+
+.men1 {
+    display: inline;
+}
+
+#threeline {
+    cursor: pointer;
+}
+
+  .penguin-logo {
+    width: 200px;
+  }
+  .head-section {
+    background-color: rgba(255, 251, 240, 1);
+  }
+  .penguin-navbar {
+    background-color: 0;
+  }
+  h1 {
+    font-family: "Bebas Neue", cursive;
+  }
+  #text-style {
+    color: rgba(250, 190, 76, 1);
+    font-size: 80px;
+  }
+  .text-style2 {
+    font-size: 80px;
+  }
+  .penguin-catagory,
+  .text-style2 {
+    color: rgba(54, 57, 88, 1);
+  }
+  .penguin-card-img {
+    padding: 5%;
+    background-color: rgba(241, 241, 241, 1);
+    margin: 4% auto;
+  }
+  .penguin-info {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+  }
+  .penguin-card-border,
+  .penguin-card-img {
+    border-radius: 1em;
+  }
+  .price-text-style {
+    color: rgba(250, 190, 76, 1);
+    font-weight: bold;
+  }
+  .penguin-card-footer,
+  .penguin-card-border {
+    background-color: white;
+    border: 0;
+  }
+  .penguin-btn {
+    background-color: rgba(164, 188, 70, 1);
+    color: white;
+  }
+  .footer-section {
+    background-color: hsla(72, 47%, 51%, 0.486);
+    padding: 3% 1% 1% 1%;
+  }
+  
+
+@media screen and (max-width:1000px) {
+    footer {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:740px) {
+
+    nav {
+        display: none;
+    }
+
+    .inflex {
+        display: block;
+    }
+
+    .navbar {
+        padding-left: 0px;
+    }
+
+    .inflex {
+        padding-right: 0px;
+    }
+
+    .inp {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 19vw;
+    }
+
+    .p100 {
+        padding: 0px;
+    }
+
+    .p101 {
+        padding: 0px;
+    }
+
+    .p102 {
+        padding: 0px;
+    }
+
+    hr {
+        display: block;
+    }
+}
+
+@media screen and (max-width:408px) {
+    .inp {
+        margin: 20px;
+    }
+
+    footer ul li {
+        margin: 0px;
+    }
+
+    footer {
+        height: 500px;
+    }
+}
